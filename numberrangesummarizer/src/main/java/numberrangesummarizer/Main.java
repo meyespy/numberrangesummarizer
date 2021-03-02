@@ -7,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Implementation implementation = new Implementation();
+
         Scanner input = new Scanner(System.in);
-
         boolean done = false;
-
         System.out.println("[Q]/[q] = quit ");
 
         while (!done) {
@@ -26,7 +26,6 @@ public class Main {
 
             } else {
 
-                Implementation implementation = new Implementation();
                 System.out.println();
                 Collection<Integer> inputCollection = implementation.collect(string);
                 System.out.println("collected input: " + inputCollection);
