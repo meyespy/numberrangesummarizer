@@ -35,20 +35,8 @@ public class unitTest {
         assertEquals(expected, actual);
     }
 
-    @Test // TEST3 - empty is handled
+    @Test // TEST3 - duplicates, multiple blanks and negative ranfes are handled
     public void three() {
-
-        Implementation implmnt = new Implementation();
-
-        final String input = "";
-        final String expected = "";
-        final String actual = implmnt.summarizeCollection(implmnt.collect(input));
-
-        assertEquals(expected, actual);
-    }
-
-    @Test // TEST4 - duplicates, multiple blanks and negative ranfes are handled
-    public void four() {
 
         Implementation implmnt = new Implementation();
 
@@ -59,8 +47,8 @@ public class unitTest {
         assertEquals(expected, actual);
     }
 
-    @Test // TEST5 - doubles are ignored
-    public void five() {
+    @Test // TEST4 - doubles are ignored
+    public void four() {
 
         Implementation implmnt = new Implementation();
 
@@ -72,8 +60,8 @@ public class unitTest {
     }
 
     // FAILURE CASE - non-numbers throw an exception
-    @Test // TEST6
-    public void six() {
+    @Test // TEST5
+    public void five() {
 
         Implementation implmnt = new Implementation();
 
