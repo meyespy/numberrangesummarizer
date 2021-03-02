@@ -8,7 +8,7 @@ Implemented by: Alisio Batinti
   * maven was used to assist in building the project
   * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
   * "mvn package" used to take the compiled code and package it in its distributable JAR format
-  * "java -cp target/numberrangesummarizer-1.0-SNAPSHOT.jar numberrangesummarizer.Main" was used to run code via cmd
+  * "java -cp target/numberrangesummarizer-1.0.jar numberrangesummarizer.Main" was used to run code via cmd
   
 * NOTE 2:
   * Unit tests take place by way of the unitTest class using the methods from the implementation class
