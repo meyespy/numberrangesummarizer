@@ -13,6 +13,7 @@ public class Implementation implements NumberRangeSummarizer {
     public Collection<Integer> collect(String input) {
         return Stream.of(input.split(",")) // split string by comma delimiter
                 .filter(item -> item != null)
+                .filter(item-> !item.isEmpty())
                 .filter(item -> item.matches("[0-9]+")) // handels removal of characters not integer
                 .map(Integer::valueOf) // convert string to integer
                 .collect(Collectors.toList());
