@@ -9,7 +9,8 @@ public class Main {
 
         Implementation implementation = new Implementation();
 
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+
         boolean done = false;
         System.out.println("[Q]/[q] = quit ");
 
@@ -17,12 +18,12 @@ public class Main {
 
             System.out.println();
             System.out.print("Provide string: ");
-            String string = input.next();
+            String string = scanner.next();
 
             if (string.equalsIgnoreCase("Q")) {
                 
                 done = true;
-                input.close();
+                scanner.close();
 
             } else {
 
