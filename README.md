@@ -14,9 +14,16 @@ Implemented by: Alisio Batinti
   * Unit tests take place by way of the unitTest class using the methods from the implementation class
   * as there arent many methods in this project, the unit tests aim less to test methods and more to test outputs and handling different cases
   * tests for negative numbers, doubles, empty-inputs, duplicates and unordered ranges are all present
+
+* Note 3:
   * a failure test for input of string characters exists - the aim is to have an exception thrown, 
   * however running the code with string characters itself will really throw exceptions and crash the programme
   * only the "q" or "Q" string characters are accepted as single inputs for exiting the programme
+
+* Note 4:
+  * carriage returns and spaces are not treated as blanks
+  * "" is a blank input
+  * That being said nulls, by their formal definition, are not handled
 
 * ASSUMPTION 1:
   * only use quotes for hardcoded variables/params 
