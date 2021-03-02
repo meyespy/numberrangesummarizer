@@ -27,7 +27,7 @@ Implemented by: Alisio Batinti
 
 * ASSUMPTION 1:
   * only use quotes for hardcoded variables/params 
-  * command inputs should not contain quotes
+  * command inputs should not contain quotes unless a blank alone is being inputed
 
 
 * ASSUMPTION 2:
