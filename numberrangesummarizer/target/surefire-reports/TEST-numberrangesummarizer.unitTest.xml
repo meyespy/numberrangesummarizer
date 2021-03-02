@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="numberrangesummarizer.unitTest" time="0.129" tests="7" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="numberrangesummarizer.unitTest" time="0.113" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ZA"/>
     <property name="sun.boot.library.path" value="C:\Users\Private\AppData\Local\Programs\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Private\AppData\Local\Temp\surefire163368655360607571\surefirebooter13997062807343696159.jar C:\Users\Private\AppData\Local\Temp\surefire163368655360607571 2021-03-02T20-09-02_805-jvmRun1 surefire4544238822815044715tmp surefire_01941474536897984224tmp"/>
+    <property name="sun.java.command" value="C:\Users\Private\AppData\Local\Temp\surefire15780499059137059372\surefirebooter1822599734581580886.jar C:\Users\Private\AppData\Local\Temp\surefire15780499059137059372 2021-03-02T20-13-21_276-jvmRun1 surefire11944649975015277075tmp surefire_012568553394212440601tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\javacode4\numberrangesummarizer\target\test-classes;C:\javacode4\numberrangesummarizer\target\classes;C:\Users\Private\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Private\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Private\AppData\Local\Temp\surefire163368655360607571\surefirebooter13997062807343696159.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Private\AppData\Local\Temp\surefire15780499059137059372\surefirebooter1822599734581580886.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9"/>
@@ -60,23 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="junitWorking" classname="numberrangesummarizer.unitTest" time="0.005"/>
-  <testcase name="one" classname="numberrangesummarizer.unitTest" time="0.021"/>
-  <testcase name="six" classname="numberrangesummarizer.unitTest" time="0.01">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at numberrangesummarizer.unitTest.six(unitTest.java:89)
-</failure>
-  </testcase>
-  <testcase name="two" classname="numberrangesummarizer.unitTest" time="0.002">
-    <failure message="expected:&lt;[-4, ]1:3, 8:10, 12, 20&gt; but was:&lt;[]1:3, 8:10, 12, 20&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[-4, ]1:3, 8:10, 12, 20> but was:<[]1:3, 8:10, 12, 20>
-	at numberrangesummarizer.unitTest.two(unitTest.java:35)
-]]></failure>
-  </testcase>
+  <testcase name="junitWorking" classname="numberrangesummarizer.unitTest" time="0.004"/>
+  <testcase name="one" classname="numberrangesummarizer.unitTest" time="0.012"/>
+  <testcase name="six" classname="numberrangesummarizer.unitTest" time="0"/>
+  <testcase name="two" classname="numberrangesummarizer.unitTest" time="0.001"/>
   <testcase name="five" classname="numberrangesummarizer.unitTest" time="0"/>
-  <testcase name="four" classname="numberrangesummarizer.unitTest" time="0.002">
-    <failure message="expected:&lt;[-3:-1, ]1:3&gt; but was:&lt;[]1:3&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[-3:-1, ]1:3> but was:<[]1:3>
-	at numberrangesummarizer.unitTest.four(unitTest.java:59)
-]]></failure>
-  </testcase>
+  <testcase name="four" classname="numberrangesummarizer.unitTest" time="0.002"/>
   <testcase name="three" classname="numberrangesummarizer.unitTest" time="0"/>
 </testsuite>
