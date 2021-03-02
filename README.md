@@ -22,8 +22,7 @@ Implemented by: Alisio Batinti
 
 * NOTE 4:
   * carriage returns and spaces are not treated as blanks
-  * "" is a blank input
-  * That being said nulls, by their formal definition, are not handled
+  * That being said blanks and nulls, by their formal definition, are not handled
 
 * ASSUMPTION 1:
   * only use quotes for hardcoded variables/params 
