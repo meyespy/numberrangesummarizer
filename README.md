@@ -8,19 +8,25 @@ Implemented by: Alisio Batinti
   * maven was used to assist in building the project
   * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
   * "mvn package" used to take the compiled code and package it in its distributable JAR format
-  * "java -cp target/numberrangesummarizer-1.0-SNAPSHOT.jar numberrangesummarizer.Main" was used to run code via cmd
+  * "java -cp target/numberrangesummarizer-1.0.jar numberrangesummarizer.Main" was used to run code via cmd
   
 * NOTE 2:
   * Unit tests take place by way of the unitTest class using the methods from the implementation class
   * as there arent many methods in this project, the unit tests aim less to test methods and more to test outputs and handling different cases
   * tests for negative numbers, doubles, empty-inputs, duplicates and unordered ranges are all present
+
+* NOTE 3:
   * a failure test for input of string characters exists - the aim is to have an exception thrown, 
   * however running the code with string characters itself will really throw exceptions and crash the programme
   * only the "q" or "Q" string characters are accepted as single inputs for exiting the programme
 
+* NOTE 4:
+  * carriage returns and spaces are not treated as blanks
+  * That being said blanks and nulls, by their formal definition, are not handled
+
 * ASSUMPTION 1:
   * only use quotes for hardcoded variables/params 
-  * command inputs should not contain quotes
+  * command inputs should not contain quotes unless a blank alone is being inputed
 
 
 * ASSUMPTION 2:
