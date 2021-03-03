@@ -14,7 +14,7 @@ Implemented by: Alisio Batinti
 * NOTE 2:
   * Unit tests take place by way of the unitTest class using the methods from the implementation class
   * as there arent many methods in this project, the unit tests aim less to test methods and more to test outputs and handling different cases
-  * tests for negative numbers, doubles, empty-inputs, duplicates and unordered ranges are all present
+  * tests for negative numbers, doubles, missing elements, duplicates and unordered ranges are all present
 
 * NOTE 3:
   * a failure test for input of string characters exists - the aim is to have an exception thrown, 
@@ -27,7 +27,7 @@ Implemented by: Alisio Batinti
 
 * ASSUMPTION 1:
   * only use quotes for hardcoded variables/params 
-  * command inputs should not contain quotes unless a blank alone is being inputed
+  * command inputs should not contain quotes
 
 
 * ASSUMPTION 2:
