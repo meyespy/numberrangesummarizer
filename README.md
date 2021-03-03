@@ -7,7 +7,8 @@ Implemented by: Alisio Batinti
 * NOTE 1:
   * maven was used to assist in building the project
   * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-  * "c:\numberrangesummarizer>mvn package" used to take the compiled code and package it in its distributable JAR format
+  * "c:\numberrangesummarizer>mvn package" used to take the compiled code and package it in its distributable JAR format.
+  * The above commnand also runs the unit tests in the process and displays the outcome to the user
   * "c:\numberrangesummarizer>java -cp target/numberrangesummarizer-1.0.jar numberrangesummarizer.Main" was used to run code via cmd
   
 * NOTE 2:
